@@ -1,44 +1,32 @@
 ---
 layout: default
-title: Corporate Illustrations
-illustrations:
+title: Safe Goods
+safegoods:
   - column-size: col-12
-    aspect-ratio: landscape-wide
-    background_image: /images/corporate/Group 11.png
-  - column-size: col-12
+    aspect-ratio: square
+    background_image: /images/sg/phones.jpg
+  - column-size: col-6
+    aspect-ratio: landscape
+    background_image: /images/sg/sg-stickers.png
+  - column-size: col-6
+    aspect-ratio: landscape
+    background_image: /images/sg/sg-box.png
+  - column-size: col-6
     aspect-ratio: landscape-extra-wide
-    background_image: /images/corporate/Group 5.png
+    background_image: /images/sg/sg-logo1.png
   - column-size: col-6
-    aspect-ratio: square
-    background_image: /images/corporate/Group 6.png
-  - column-size: col-6
-    aspect-ratio: square
-    background_image: /images/corporate/Group 7.png
-  - column-size: col-12
-    aspect-ratio: landscape
-    background_image: /images/corporate/comp.png
-  - column-size: col-6
-    aspect-ratio: square
-    background_image: /images/corporate/Group 8.png
-  - column-size: col-6
-    aspect-ratio: square
-    background_image: /images/corporate/Group 9.png
-  - column-size: col-12
-    aspect-ratio: landscape
-    background_image: /images/corporate/oktafp.png  
-  - column-size: col-12
-    aspect-ratio: landscape
-    background_image: /images/corporate/Group 10.png  
+    aspect-ratio: landscape-extra-wide
+    background_image: /images/sg/sg-logo2.png
 ---
 
 <!-- banner -->
-<section class="banner banner-ill flex justify-center items-center"> </section>
+<section class="banner banner-sg flex justify-center items-center"> </section>
 
 <!---info section -->
 <div class="padded centered">
-    <h2>Corporate Illustrations</h2>
+    <h2>Safe Goods</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolorem repellendus veritatis tempora perspiciatis inventore voluptates consequatur natus, officiis blanditiis labore nam voluptas dicta in veniam aliquam ad, debitis dignissimos?</p>
-    <p>Illustrations</p>
+    <p>App Design, App Prototyping & Branding</p>
 </div>
 
 <!--vertical line -->
@@ -49,7 +37,7 @@ illustrations:
 <!-- gallery -->
 
 <div class="gallery grid-middle padded">
-    {% for item in page.illustrations %}
+    {% for item in page.safegoods %}
 
     <div class="{{item.column-size}}">
       <div class="bg-image {{item.aspect-ratio}} "
@@ -58,6 +46,12 @@ illustrations:
     </div>
 
     {% endfor %}
+</div>
+
+
+<!---Protptype Figma -->
+<div class="centered">
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1000" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FAAg5uLtbaDguTY4ad78t5U%2FBakery-App%3Ftype%3Ddesign%26node-id%3D338-244%26t%3Dioftcu3QPUqO4tED-1%26scaling%3Dscale-down%26page-id%3D252%253A2%26starting-point-node-id%3D338%253A244%26mode%3Ddesign"></iframe>
 </div>
 
   <!--button -->

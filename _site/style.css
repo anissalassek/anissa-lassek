@@ -105,6 +105,7 @@
   padding-bottom: 100%; }
 .landscape { padding-bottom: 66%; }
 .landscape-wide { padding-bottom: 56%; }
+.landscape-extra-wide { padding-bottom: 39%;}
 
 /* Background Position */
 .bg-pos-t { background-position: top; }
@@ -244,6 +245,10 @@
 
   .banner-ill {
     background-image: url('/images/banner-ill.png');
+  }
+
+  .banner-sg {
+    background-image: url('/images/sg/banner.jpg');
   }
 
   .gallery [class*="col-"] {
