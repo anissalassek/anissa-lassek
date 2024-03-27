@@ -72,6 +72,7 @@
       p, ul {
        margin-bottom: 0.8rem;
       }
+
   
       /* this makes sure that the last element in any container doesn't have margin-bottom */
       h2:last-child,
@@ -165,12 +166,6 @@
     
 
 /* Images */
-.a-logo {
-    background-image: url(/images/a-logo.png);
-    background-size: 20%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 .logo-white {
     background-image: url(/images/logo-white.png);
@@ -251,6 +246,10 @@
     background-image: url('/images/sg/banner.jpg');
   }
 
+  .banner-w {
+    background-image: url('/images/w-banner.png');
+  }
+
   .gallery [class*="col-"] {
     padding: 0.5%;
   }
@@ -262,4 +261,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .a-logo {
+    background-position: cover;
+    background-size: 20%;
   }
